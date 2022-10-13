@@ -1,0 +1,20 @@
+node-clone-stats (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Enable upstream test using tape
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 29 Apr 2020 13:27:13 +0200
+
+node-clone-stats (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845235)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 21 Nov 2016 22:38:35 +0530

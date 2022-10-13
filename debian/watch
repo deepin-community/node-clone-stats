@@ -1,0 +1,5 @@
+version=3
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-clone-stats-$1.tar.gz/ \
+ https://github.com/hughsk/clone-stats/tags .*/archive/v?([\d\.]+).tar.gz

@@ -3,10 +3,10 @@ Section: javascript
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Sruthi Chandran <srud@disroot.org>
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 13)
  , node-tape <!nocheck>
- , pkg-js-tools (>= 0.9.20~)
-Standards-Version: 4.5.0
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-clone-stats
 Vcs-Git: https://salsa.debian.org/js-team/node-clone-stats.git
 Homepage: https://github.com/hughsk/clone-stats
@@ -16,6 +16,6 @@ Rules-Requires-Root: no
 Package: node-clone-stats
 Architecture: all
 Depends: ${misc:Depends}
- , nodejs
+Multi-Arch: foreign
 Description: Safely clone node's fs.Stats instances without losing their class methods
  Node.js is an event-based server-side JavaScript engine.

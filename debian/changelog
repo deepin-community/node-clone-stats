@@ -1,3 +1,22 @@
+node-clone-stats (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-clone-stats: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Sun, 21 Nov 2021 14:35:16 +0100
+
 node-clone-stats (1.0.0-2) unstable; urgency=medium
 
   * Team upload
